@@ -1,0 +1,21 @@
+  AllCops:
+    TargetRubyVersion: 2.3
+    Exclude:
+        - 'db/**/*'
+        - 'script/**/*'
+        - 'bin/**/*'
+        - 'vendor/**/*'
+        - 'log/**/*'
+        - 'Gemfile'
+        - 'spec/support/**/*'
+  Metrics/LineLength:
+    Enabled: false
+    Max: 120
+  Style/Documentation:
+    Enabled: false
+  Style/ClassAndModuleChildren:
+    Enabled: false
+  Style/MutableConstant:
+    Enabled: false
+  Style/FrozenStringLiteralComment:
+    Enabled: false
